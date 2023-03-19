@@ -29,3 +29,9 @@ _//todo: 并没有找到指定脚本运行指定网络的命令_
 
 `npx hardhat run scripts/deploy.js --network xxx`
 
+
+## hello world
+
+构造方法 当传入的值是 string 这种复杂类型的时候需要指定 memory 数据类型
+`constructor(string memory str)`
+`string public greet = "Hello World";`
