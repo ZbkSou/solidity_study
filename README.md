@@ -40,3 +40,24 @@ _//todo: 并没有找到指定脚本运行指定网络的命令_
 
 `string public greet = "Hello World";`
 
+
+## First Application
+
+属性被 public 修饰编译是会生成属性名的 view 方法,可以不用写 get 方法
+
+```
+    {
+      "inputs": [],
+      "name": "count",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+```
+ 
